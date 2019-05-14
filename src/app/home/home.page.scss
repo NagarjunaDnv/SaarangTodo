@@ -1,1 +1,62 @@
 
+input[type=text]{
+    background-color:rgb(223, 215, 215);
+    border:none;
+    border-radius:6px;
+    padding-bottom: 7.5px;
+    padding-top:7px;
+    text-align: center
+}
+input[type=text]:focus{
+    background-color:rgb(211, 212, 212);
+    outline: none;
+    
+}
+.a{
+    display: inline;
+    position: relative;
+    text-align: center
+}
+.b{
+    display: inline;
+    position: relative;
+    text-align: center;
+    padding-left:6px
+}
+.c{
+    padding-top:10px;
+    flex-direction: row;
+    text-align: center
+}
+
+button.aaaaa{
+    width:50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:6px;
+    background-color:rgb(8, 137, 212);
+    color:white;
+    outline:none
+}
+button.aaaaa:hover{
+    background-color: rgb(5, 77, 126);
+    outline: none
+}
+.list{
+    padding-top: 5px
+}
+ion-item-option{
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(211, 212, 212);
+    width:50px;
+    border-radius: 5px
+}
